@@ -1,0 +1,127 @@
+{
+  "configVersion": 1,
+  "timestamp": 1697316568031,
+  "index": "'https://anujnj11.github.io/test-tick-two/'/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "'https://anujnj11.github.io/test-tick-two/'/favicon.ico",
+        "'https://anujnj11.github.io/test-tick-two/'/index.html",
+        "'https://anujnj11.github.io/test-tick-two/'/main.1cedbcb72292c6e6.js",
+        "'https://anujnj11.github.io/test-tick-two/'/manifest.webmanifest",
+        "'https://anujnj11.github.io/test-tick-two/'/polyfills.7a1c7df86650de05.js",
+        "'https://anujnj11.github.io/test-tick-two/'/runtime.0597e404d6678430.js",
+        "'https://anujnj11.github.io/test-tick-two/'/scripts.698cec85c5caa43b.js",
+        "'https://anujnj11.github.io/test-tick-two/'/styles.a4f26c613102e132.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "'https://anujnj11.github.io/test-tick-two/'/assets/icons/icon-192-192.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/arrow_right_uts.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/book_ticket_uts.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/booked_stamp_uts.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/booking_history_uts.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/c_c.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/cancel_ticket_uts.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/change-lang.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/cris_uts.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/cris_uts_ac_bar.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/destination_uts.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/download.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/ir_uts.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/login_btn_uts.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/logo_uts.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/payment_option_uts.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/platform_ticket_uts.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/profile_avatar_uts.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/qr1-.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/qr_booking_uts.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/quick_booking_uts.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/r_wallet_uts.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/rs_uts.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/search_uts.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/season_ticket_uts.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/show_booked_ticket_uts.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/source_uts.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/splash_uts.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/ticket_white_uts.png",
+        "'https://anujnj11.github.io/test-tick-two/'/assets/images/titles_bg_uts.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "'https://anujnj11.github.io/test-tick-two/'/assets/icons/icon-192-192.png": "2156d90b8ff70685035a9d7e2263eb939ad24be8",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/arrow_right_uts.png": "de2216e3b9d2eb3463d52f3d45fec7abff70b62b",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/book_ticket_uts.png": "90ac687ba4c0dfc01358bd7dbaacb029772150b3",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/booked_stamp_uts.png": "b6e5cfd92fff4f855c53b7b0dfcadf6a0f23e5ea",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/booking_history_uts.png": "1b7fa2ce0944bfbe4ff887a86a79dbeb0eea4d24",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/c_c.png": "f12555892a2e2bcd02ca600dc5bdda1b8343aec3",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/cancel_ticket_uts.png": "410598361be7ed06cce2ab957975a53c6aaf2eaf",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/change-lang.png": "5a2c588964dfcf9d86e6eb6e5c2a260d15bccae5",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/cris_uts.png": "644d2a36d803b037ed7d2efd7647d1bf701527ea",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/cris_uts_ac_bar.png": "7784c37bde2824ca5c16f5cc793e898ccdeedfad",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/destination_uts.png": "7c73bfb5ad3797bddc94f10c67d17fa0d88ecd85",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/download.png": "adddd470c6f997647ad2d5b5f5ca651328063216",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/ir_uts.png": "33fa5fe3c5d85f3841e9e24fc0e85e0371fcd6a6",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/login_btn_uts.png": "36d0da06980dab4e2b58ebddd13395b5af72045f",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/logo_uts.png": "0c8bb2b3d88366fedfb30aa2b421436bc13faf65",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/payment_option_uts.png": "1f192868a6577b1f0efa82dc2c8b4a83cc74dad1",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/platform_ticket_uts.png": "33ec6515df60d2ea54ffce70239bfcb7ced761a8",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/profile_avatar_uts.png": "e6cce0cb9d8155f26b222aeefd2f826a98510c5f",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/qr1-.png": "98fbc08bcf9ca51a93f5fa49da337e9fe32c2519",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/qr_booking_uts.png": "f16c990f86ccc966d21393bd2f5cb0fdba3f0049",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/quick_booking_uts.png": "72daaf8216621dcbe3275efa79e8187f84d4f9cb",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/r_wallet_uts.png": "6f5c603539d9116b2020bec3f6b9c653fb09aa80",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/rs_uts.png": "e9784930fff6776906eb92730a411fd0e270d63c",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/search_uts.png": "788e9a54a0464651b2fd6051d1f4a8a6b81e42b2",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/season_ticket_uts.png": "59226575206a90a6a951888d4b8df70671c56602",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/show_booked_ticket_uts.png": "ad1f02176e9674121f986a779346432cf5b94715",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/source_uts.png": "49a3526e32843708454cdffedc10fb80e3319dea",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/splash_uts.png": "921bb66ce4b9cf5ec1bf90f10bd44c89e21d7626",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/ticket_white_uts.png": "4e046ec50e74154cd2494b301d678ef85f665345",
+    "'https://anujnj11.github.io/test-tick-two/'/assets/images/titles_bg_uts.png": "c2c01939098298d47702db31a8abf53f3d0ea876",
+    "'https://anujnj11.github.io/test-tick-two/'/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "'https://anujnj11.github.io/test-tick-two/'/index.html": "161787916ae0284526809c6e27764ec389df04a0",
+    "'https://anujnj11.github.io/test-tick-two/'/main.1cedbcb72292c6e6.js": "1938f3a5f19f54ffdd8e2e596862dd4b50eeb3ea",
+    "'https://anujnj11.github.io/test-tick-two/'/manifest.webmanifest": "dfe5f086749e9f51ca7640d50df757822a467802",
+    "'https://anujnj11.github.io/test-tick-two/'/polyfills.7a1c7df86650de05.js": "614625928f2bcae9bccbd8a441be601bc0d416f8",
+    "'https://anujnj11.github.io/test-tick-two/'/runtime.0597e404d6678430.js": "d1d483a6e22227e802df6038c1f419ff125e46ff",
+    "'https://anujnj11.github.io/test-tick-two/'/scripts.698cec85c5caa43b.js": "4753db41b470d6a7f74c8ee032f1830e7515c85a",
+    "'https://anujnj11.github.io/test-tick-two/'/styles.a4f26c613102e132.css": "9f4216844080d8495d70b83289b8a118b620583a"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
