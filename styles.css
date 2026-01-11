@@ -1,0 +1,657 @@
+/* Global Styles - converted from styles.scss */
+:root {
+    --orange: rgba(254, 116, 105, 1);
+    --orange-gradient: linear-gradient(90deg, rgba(254, 116, 105, 1) 0%, rgba(250, 128, 84, 1) 35%, rgba(248, 136, 72, 1) 100%);
+    --global-link-color: #FA7469;
+    --screen-sm-min: 576px;
+    --screen-md-min: 768px;
+    --screen-lg-min: 992px;
+    --screen-xl-min: 1200px;
+}
+
+* {
+    font-family: 'Roboto Condensed', 'Roboto', 'sans-serif';
+}
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.uk-radio:checked,
+.uk-checkbox:checked,
+.uk-checkbox:indeterminate,
+.uk-radio:checked:focus {
+    background-color: #e64a19;
+}
+
+img {
+    pointer-events: none;
+}
+
+/* Screen containers */
+#home-screen,
+#ticket-screen,
+#ticket-show-screen {
+    display: none;
+}
+
+/* Initial state - show splash screen */
+#splash-screen {
+    display: block;
+}
+
+/* Active screen display */
+#splash-screen.active,
+#home-screen.active,
+#ticket-screen.active,
+#ticket-show-screen.active {
+    display: block !important;
+}
+
+/* Splash Screen Styles - converted from splash.component.scss */
+.logo {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+
+/* Home Screen Styles - converted from home.component.scss */
+.nav-bg {
+    padding: 5px 0px;
+    margin: 0px;
+    background: linear-gradient(90deg, rgba(254, 116, 105, 1) 0%, rgba(250, 128, 84, 1) 35%, rgba(248, 136, 72, 1) 100%) !important;
+    color: white;
+}
+
+.nav-bg-2 {
+  padding: 5px 0px;
+  margin: 0px;
+  background: white;
+  color: white;
+}
+
+.nav-bg .uts {
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+}
+
+.nav-bg .ur {
+    font-size: 16px;
+    color: white;
+}
+
+.nav-bg .extra-action {
+    margin-top: 10px;
+}
+
+.nav-bg .extra-action .pd-icon {
+    width: 33px;
+    margin-right: 10px;
+}
+
+.more {
+    color: white;
+}
+
+.offer-div {
+    padding: 0px !important;
+}
+
+.offer-div .offer {
+    padding: 0px 5px;
+    font-weight: 600;
+    color: #1a237e;
+    font-size: 14px;
+    animation: animate 1.6s linear infinite;
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+@keyframes animate {
+    50% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.uk-active,
+.uk-active > a {
+    border-color: var(--orange);
+}
+
+.menus {
+    padding: 1px !important;
+}
+
+.menus .tab-menu {
+    margin-bottom: 5px;
+}
+
+.menus .tab-menu li {
+    padding-left: 3px;
+}
+
+.menus .tab-menu img {
+    width: 30px;
+    margin-bottom: 5px;
+}
+
+.menus .tab-menu span {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1.2;
+}
+
+.menus .sub-menu {
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.menus .sub-menu .uk-card {
+    padding: 2px;
+}
+
+.menus .sub-menu img {
+    width: 22px;
+}
+
+.menus .sub-menu .uk-grid-small > *,
+.menus .sub-menu .uk-grid-column-small > * {
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+.menus .sub-menu span {
+    color: #e64a19;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menus .sub-menu .transaction {
+    width: 29px;
+}
+
+.menus .sub-menu .wallet {
+    width: 18px;
+}
+
+.booking-card {
+    padding: 15px 5px;
+}
+
+.booking-card .booking {
+    padding: 0px;
+    border-radius: 5px;
+}
+
+.booking-card .booking .normal-booking {
+    padding: 6px 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: linear-gradient(90deg, rgba(254, 116, 105, 1) 0%, rgba(250, 128, 84, 1) 35%, rgba(248, 136, 72, 1) 100%);
+    color: white;
+}
+
+.booking-card .booking .normal-booking span {
+    font-size: 17px;
+}
+
+.booking-card .booking .booking-card {
+    padding: 5px 10px;
+    color: black;
+}
+
+.booking-card .booking .booking-card .radio-lable {
+    font-size: 13px;
+}
+
+.booking-card .booking .booking-card .uk-radio {
+    margin-top: 1px;
+    color: black;
+    border: 2px solid #e64a19;
+    width: 18px;
+    height: 18px;
+}
+
+.booking-card .booking .booking-card .paperless {
+    padding: 5px;
+}
+
+.booking-card .booking .booking-card .paperless span {
+    color: black;
+    font-size: 10px;
+}
+
+.booking-card .station {
+    padding: 5px;
+    border-bottom: 1px solid #FA7469;
+}
+
+.booking-card .station .d {
+    font-size: 16px;
+}
+
+.booking-card .station .stn {
+    font-size: 20px;
+}
+
+.booking-card .station .s {
+    font-size: 14px;
+}
+
+.booking-card .action {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.booking-card .action .ac-button {
+    background-color: var(--orange);
+    color: white;
+    border: transparent;
+    border-radius: 20px;
+    width: 70%;
+}
+
+.footer {
+    padding: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.footer .cris,
+.footer .version {
+    color: #e64a19;
+    font-size: 13px;
+}
+
+/* Ticket Screen Styles - converted from ticket.component.scss */
+#ticket-screen .nav-bg {
+    padding: 15px 15px;
+    background: linear-gradient(90deg, rgba(254, 116, 105, 1) 0%, rgba(250, 128, 84, 1) 35%, rgba(248, 136, 72, 1) 100%);
+    color: white;
+}
+
+#ticket-screen .nav-bg .show-ticket {
+    padding: 0px 5px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.p5 {
+    padding: 5px;
+}
+
+#ticket-screen .booking {
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+#ticket-screen .booking .normal-booking {
+    padding: 0px 5px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, rgba(254, 116, 105, 1) 0%, rgba(250, 128, 84, 1) 35%, rgba(248, 136, 72, 1) 100%);
+    color: white;
+}
+
+#ticket-screen .booking .normal-booking .show-ticket {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#ticket-screen .booking img {
+    margin: 1px 10px;
+}
+
+.booked-ticket {
+    position: relative;
+    padding: 10px;
+}
+
+.booked-ticket .booked {
+    position: absolute;
+    top: 23%;
+    z-index: 1;
+    right: 32%;
+}
+
+.booked-ticket .ticket {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.booked-ticket .ticket span {
+    font-size: 14px;
+    color: #333333;
+    font-weight: 500;
+}
+
+.booked-ticket .ticket .ticket-bg {
+    background: linear-gradient(90deg, rgba(254, 116, 105, 1) 0%, rgba(250, 128, 84, 1) 35%, rgba(248, 136, 72, 1) 100%);
+}
+
+.booked-ticket .ticket .season {
+    color: white;
+    padding: 5px 7px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.booked-ticket .ticket .via {
+    color: black;
+    font-weight: 16px;
+}
+
+.booked-ticket .ticket .s-m {
+    border-right: 1px solid white;
+}
+
+.booked-ticket .ticket .curr {
+    margin-top: -5px;
+}
+
+.booked-ticket .ticket .border-right {
+    border-right: 1px solid #dddddd;
+}
+
+.booked-ticket .ticket .border-left {
+    border-left: 1px solid #dddddd;
+}
+
+.booked-ticket .ticket .border-bottom {
+    border-bottom: 1px solid #dddddd;
+}
+
+.booked-ticket .ticket .rupee {
+    margin-left: -4px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.booked-ticket .ticket .source {
+    color: black;
+    font-size: 16px;
+}
+
+.booked-ticket .ticket .sd {
+    padding: 5px 12px;
+}
+
+.booked-ticket .ticket .sd img {
+    margin-right: 8px;
+}
+
+.booked-ticket .ticket .distance {
+    padding: 2px;
+}
+
+.booked-ticket .ticket .pT2 {
+    padding-top: 0px;
+}
+
+.booked-ticket .ticket .mT5 {
+    margin-top: 0px;
+}
+
+.booked-ticket .ticket .pri {
+    color: #e64a19;
+    font-size: 15px;
+}
+
+.booked-ticket .ticket .adult {
+    font-size: 14px;
+}
+
+.booked-ticket .ticket .semi-info {
+    font-size: 14px;
+    color: #f88848;
+}
+
+.booked-ticket .ticket .date {
+    font-size: 14px;
+    margin-right: 15px;
+    font-weight: 500;
+}
+
+.booked-ticket .ticket .action {
+    font-weight: 600;
+    color: #f88848;
+    font-size: 14px;
+}
+
+/* Ticket Show Screen Styles - converted from ticket-show.component.scss */
+.mL5 {
+    margin-left: 5px;
+}
+
+.mT5 {
+    margin-top: 5px;
+}
+
+.marquee {
+    -moz-animation: marquee 5s linear infinite;
+    -webkit-animation: marquee 5s linear infinite;
+    animation: marquee 5s linear infinite;
+    font-size: 19px;
+    font-weight: 700;
+    display: inline-block;
+    white-space: nowrap;
+    color: #1a237e;
+    font-family: 'Roboto Condensed', 'Roboto', 'sans-serif';
+}
+
+@-moz-keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@-webkit-keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes marquee {
+    0% {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
+#ticket-show-screen .nav-bg {
+    padding-top: 10px;
+    background-color: #424242;
+    margin-bottom: 0px;
+}
+
+#ticket-show-screen .nav-bg .z-index {
+    z-index: 1;
+}
+
+#ticket-show-screen .nav-bg .extra-action {
+    margin-right: 12px;
+}
+
+#ticket-show-screen .nav-bg .uk-width-expand {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    width: 100%;
+}
+
+#ticket-show-screen .nav-bg .reserved.marquee {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 5s linear infinite;
+    will-change: transform;
+    color: #3f51b5;
+    margin: 0;
+    line-height: 1.5;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', 'Roboto', 'sans-serif';
+}
+
+#ticket-show-screen .ticket {
+    padding: 5px 12px;
+}
+
+#ticket-show-screen .ticket .ticket-div {
+    padding: 0;
+}
+
+#ticket-show-screen .ticket .ticket-body {
+    padding: 10px;
+    background-color: #fda5f7;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#ticket-show-screen .ticket .info {
+    padding: 0px 10px;
+}
+
+#ticket-show-screen .ticket .text {
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+}
+
+#ticket-show-screen .ticket .text2 {
+    font-size: 14px;
+    color: #0f0f0f;
+}
+
+#ticket-show-screen .ticket .journey {
+    padding: 6px 5px;
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+}
+
+#ticket-show-screen .ticket .monthly {
+    padding: 5px;
+    background-color: #800080;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#ticket-show-screen .ticket .line {
+    margin: 5px;
+    border-color: black;
+}
+
+#ticket-show-screen .ticket .line2 {
+    margin: 5px;
+    border-color: #4c4848;
+}
+
+#ticket-show-screen .ticket .red {
+    margin-left: 5px;
+    color: #c4161c;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+#ticket-show-screen .ticket .source {
+    color: white;
+    background: #800080;
+    width: 25px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#ticket-show-screen .ticket .s-d {
+    padding: 0px 5px;
+}
+
+#ticket-show-screen .ticket .warning {
+    padding: 5px 20px;
+    font-size: 11px;
+}
+
+#ticket-show-screen .ticket a {
+    color: rgba(254, 116, 105, 1);
+}
+
+#ticket-show-screen .ticket .emer {
+    text-align: center;
+    padding: 5px 20px;
+    font-size: 12px;
+    color: #c4161c;
+}
+
+#ticket-show-screen .ticket .action {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#ticket-show-screen .ticket .action .ac-button {
+    background-color: var(--orange);
+    color: white;
+    border: transparent;
+    border-radius: 20px;
+    width: 90%;
+}
+
+.qr {
+    font-size: 21px;
+    font-weight: 500;
+    color: black;
+}
+
+.ok {
+    color: #e64a19;
+}
+
+.d-marquee {
+    color: #3f51b5;
+}
+
+#ticket-show-screen .footer {
+    padding: 5px;
+}
+
+#ticket-show-screen .footer .cris,
+#ticket-show-screen .footer .version {
+    font-size: 12px;
+}
+
+/* Back button styling */
+.back {
+    color: white;
+    cursor: pointer;
+}
+
+/* Hide/show for ticket type info */
+#paperless-info,
+#paper-info {
+    display: none;
+}
